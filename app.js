@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const { DynamoDB } = require("@aws-sdk/client-dynamodb");
 
 const dynamodb = new DynamoDB({
-  region: "ap-south-1",
+  region: "us-east-1",
   credentials: {
     accessKeyId: "*****",
     secretAccessKey: "*******",
